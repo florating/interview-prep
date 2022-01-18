@@ -84,7 +84,7 @@ _[Click here](#tech-interview-prep) to go back to the top._
 
 ## Resources
 
-[Click here](https://github.com/florating/skincare-routine-helper/blob/main/resource-list.md) to look at the list of resources!
+[Click here](#https://github.com/florating/interview-prep/blob/main/resource-list.md) to look at the list of resources!
 
 ## Preparing Resume and Cover Letter
 

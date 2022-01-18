@@ -1,12 +1,14 @@
 # Resources
 
-This list will be updated to include additional resources over time.
+A collection of general interview prep guides, study materials, useful tools, and helpful advice for developers.
+
+Click on the hamburger menu (icon with 3 horizontal stripes) at the top left corner of the README to jump to a topic.
 
 :sparkles: = great content to review!
 
-## General Guides
+## General Guides (Overview)
 
-- :sparkles:[How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/)
+- :sparkles: [How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/)
 
   - written in May 2016 by Haseeb Qureshi
 
@@ -17,12 +19,17 @@ This list will be updated to include additional resources over time.
 
   </details>
 
-- :sparkles:[The Interview Study Guide for Software Engineers](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764)
-  - a list of video lectures covering CS fundamentals in Python and SQL
-  - written by Ben Rogojan and last updated in December 2019
-## Sorted by Topic
+- :sparkles: [The Interview Study Guide for Software Engineers](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764)
 
-Click on the hamburger menu at the top left corner of the README to jump to a topic.
+  - a list of video lectures covering CS fundamentals in [Python](#python) and [SQL](#sql)
+  - written by Ben Rogojan and last updated in December 2019
+
+- [How to pass a programming interview](https://triplebyte.com/blog/how-to-pass-a-programming-interview) from Triplebyte
+
+  - a short article, written in April 2020
+  - :sparkles: a [longer article](https://triplebyte.com/blog/triplebyte-s-way-too-long-technical-interview-prep-guide) with more technical details
+
+_[Click here](#resources) to go back to the top._
 
 ### CS Fundamentals
 
