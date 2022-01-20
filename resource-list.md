@@ -31,7 +31,7 @@ Click on the hamburger menu (icon with 3 horizontal stripes) at the top left cor
 
 _[Click here](#resources) to go back to the top._
 
-### CS Fundamentals
+## CS Fundamentals
 
 - Learn one language inside and out for interviews (eg: Python).
 - Stick to learning the basics and skip on the fancy stuff (like list comprehensions) until you feel 100% comfortable with everything else.
@@ -59,7 +59,7 @@ _[Click here](#resources) to go back to the top._
 
 _[Click here](#resources) to go back to the top._
 
-### System Design
+## System Design
 
 **General:**
 
@@ -85,7 +85,41 @@ _[Click here](#resources) to go back to the top._
 
 _[Click here](#resources) to go back to the top._
 
-### Front-End
+## Data Science
+
+Quick reference: [How do you decide whether to use Python or R?](https://s3.amazonaws.com/assets.datacamp.com/email/other/Python+vs+R.pdf)
+
+_Would data visualization also go here?_
+
+**Topics:**
+
+- SQL & data analysis
+- Data structures & algorithms
+- Machine learning theory
+- Modeling case studies
+- Database & system design
+- Product & business intuition
+- Statistics & probability
+- Python scripting
+- Experimentation & A/B testing
+
+**Helpful Libraries:**
+
+- pandas: [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+- [D3.js](https://d3js.org): examples [here](https://observablehq.com/@d3/gallery) and [there](https://www.d3-graph-gallery.com), tutorials on [their wiki](https://github.com/d3/d3/wiki/Tutorials) or [Observable](https://observablehq.com/@d3/learn-d3)
+
+**Problem Sets:**
+
+- https://www.interviewquery.com/blog-python-data-science-interview-questions
+
+**Services:**
+
+- https://www.interviewquery.com
+  - paid service to "focus your studying and practice only the most relevant questions for your dream role and company"
+
+_[Click here](#resources) to go back to the top._
+
+## Front-End
 
 **Types of Front-End Roles:**
 
@@ -129,7 +163,7 @@ _Quoted from the link above._
 
 </details>
 
-### Back-End
+## Back-End
 
 **General:**
 

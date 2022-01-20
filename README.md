@@ -2,16 +2,13 @@
 
 Things to study when prepping for tech interviews. Tailored for those looking for their first 1-2 SWE roles in the industry.
 
-## Contents
+[Click here](#https://github.com/florating/interview-prep/blob/main/resource-list.md) to look at the list of all resources!
+
+### CONTENT:
 
 1. Mindset
 2. [General study plan](#general-study-plan)
 3. Resources
-   - [Sorted by topic](#sorted-by-topic)
-   - Textbooks
-   - [Problem sets](#problem-sets)
-   - [Helpful tools](#helpful-tools)
-   - [Curricula (from universities, bootcamps, etc.)](#Curricula)
 4. [Building your portfolio](#building-your-portfolio)
    - Projects
    - Personal website
@@ -35,6 +32,8 @@ What are some of the traits that recruiters and hiring managers look for when th
     - Companies are hiring candidates based on their potential to learn and grow. They don't expect you to have 100% of the skills listed in a job posting.
 2. Keep learning. :)
 3. Take initiative, and get comfortable looking at documentation!
+
+_[Click here](#tech-interview-prep) to go back to the top._
 
 ## General Study Plan
 
