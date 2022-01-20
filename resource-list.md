@@ -46,12 +46,17 @@ _[Click here](#resources) to go back to the top._
 - object oriented programming (OOP)
 - recursion
 - tree traversal
+- breadth-first search vs depth-first search
 
 **Possibly optional stuff:**
 
 - graph theory
 - design patterns
 - combinatorial problems
+
+**Algorithms:**
+
+- [The Tech Interview Handbook](https://techinterviewhandbook.org/algorithms/introduction/): [Algorithm tips](https://techinterviewhandbook.org/algorithms/introduction/#general-tips)
 
 **Big O Notation:**
 
@@ -181,7 +186,9 @@ _Quoted from the link above._
 
 _[Click here](#resources) to go back to the top._
 
-### Python
+# Language-Specific Resources
+
+## Python
 
 **Official Documentation:**
 
@@ -195,12 +202,11 @@ _[Click here](#resources) to go back to the top._
 
 - :sparkles:[Jupyter notebooks to learn Python 3.5+](https://jerry-git.github.io/learn-python3/), including the following topics:
   - [Idiomatic Python](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_misc2.html#Properties-instead-of-getter/setter-methods): some do's and don'ts at an intermediate level
-  - :sparkles:[Best practices](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/best_practices.html): includes why + how
+  - :sparkles: [Best practices](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/best_practices.html): includes why + how
   - [goodies of the standard Python libarary](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/std_lib2.html): encoding/decoding JSON, mock tests, etc.
-- :sparkles:Python cheatsheet (basics to more fancy stuff): https://www.pythoncheatsheet.org
+- :sparkles: Python cheatsheet (basics to more fancy stuff): https://www.pythoncheatsheet.org
   - Python comprehensions: [a step-by-step guide](https://www.pythoncheatsheet.org/blog/python-comprehensions-step-by-step/)
-- [Big O notation](https://wiki.python.org/moin/TimeComplexity): more about time complexity
-
+- :sparkles: [Big O notation](https://wiki.python.org/moin/TimeComplexity): more about time complexity
 - Algorithm implementations: https://www.algorist.com/languages/Python.html
 
 **Tools:**
@@ -209,9 +215,15 @@ _[Click here](#resources) to go back to the top._
 - [Jupyter notebooks](https://jupyter.org)
 - :sparkles:[Formatting strings](https://pyformat.info): comparing new vs old styles
 
+<details><summary>Extra resources</summary>
+
+- [Dive Into Python 3](https://diveintopython3.net): differences between Python 2 and 3 in textbook form, for free
+
+</details>
+
 _[Click here](#resources) to go back to the top._
 
-### JavaScript
+## JavaScript
 
 **Getting Started:**
 
@@ -228,14 +240,22 @@ _[Click here](#resources) to go back to the top._
 
 _[Click here](#resources) to go back to the top._
 
-### SQL
+## SQL
 
 - [Writing more legible SQL](https://www.craigkerstiens.com/2016/01/08/writing-more-legible-sql/): tips written in 2016
 - Hackbright Lecture on SQLAlchemy (day 1): https://fellowship.hackbrightacademy.com/materials/serft8/lectures/sql-alchemy-1/
+- [60+ SQL questions to prepare for interviews](https://www.interviewbit.com/sql-interview-questions/) from InterviewBit
+- [Interview questions](https://www.geeksforgeeks.org/sql-interview-questions/) from GeeksforGeeks
+
+<details><summary>Extra resources</summary>
+
+- [The best Postgres feature you're not using – CTEs aka WITH clauses](https://www.craigkerstiens.com/2013/11/18/best-postgres-feature-youre-not-using/) (Craig Kerstiens, 11/18/2013)
+
+</details>
 
 _[Click here](#resources) to go back to the top._
 
-## Extra Material
+# Extra Material
 
 - [How does the internet work?](https://www.youtube.com/watch?v=zN8YNNHcaZc) - a nearly 2 hr lecture video from freeCodeCamp.org (on Youtube)
 
@@ -244,5 +264,47 @@ _[Click here](#resources) to go back to the top._
 - How to write a good Git commit message: https://cbea.ms/git-commit/
 - How to collaborate on a project with GitHub: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67
   - setup git flow with a new team
+
+**Regular Expressions:**
+
+<details><summary>More info here</summary>
+
+- :sparkles: Python Cheatsheet's [quick tutorial](https://www.pythoncheatsheet.org/#Regular-Expressions)
+- :sparkles: HackerRank's [list of practice problems](https://www.hackerrank.com/domains/regex) (in order of difficulty)
+- Tools: quick ways to test regex
+  - https://pythex.org - in Python
+  - https://regex101.com - in PHP, JS, Python, Golang, and Java
+  - https://www.debuggex.com
+
+</details>
+
+_[Click here](#resources) to go back to the top._
+
+# How to Stand Out
+
+## Resume & CV
+
+- Canva: [free resume templates](https://www.canva.com/templates/?query=resumes)
+- :sparkles: Indeed's list of [transferrable skills to highlight](https://www.indeed.com/career-advice/resumes-cover-letters/transferable-skills) - helpful for career transition
+- [How your resume is screened & 10 ways to improve your resume](https://techinterviewhandbook.org/resume/) - The Tech Interview Handbook
+
+## Coding Challenges
+
+- [The 10 Most Popular Coding Challenge Websites](https://www.freecodecamp.org/news/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f/) - freeCodeCamp, updated in 2021
+- https://www.aicrowd.com
+
+## Project Portfolio
+
+- [Using GitHub to build a portfolio](https://yourbrainoncomputers.com/using-github-to-build-a-portfolio-ultimate-guide/) - updated in 2020
+- :sparkles: [The Ultimate Guide To Building A Personal Website](https://collegeinfogeek.com/personal-website/)
+  - by Thomas Frank (College Info Geek), written in 2012, updated in January 2022
+  - covers how to [get a domain name](https://collegeinfogeek.com/personal-website/#step-get-a-domain-name-and-hosting), [setup WordPress](https://collegeinfogeek.com/personal-website/#step-install-wordpress-and-set-up-your-site) (easy enough for people with no coding background), [improve search engine optimization](https://collegeinfogeek.com/personal-website/#step-optional-make-your-website-even-better), etc.
+
+_[Click here](#resources) to go back to the top._
+
+# The Job Hunt
+
+- [How to find a remote job](https://www.glassdoor.com/blog/guide/how-to-find-a-remote-job/) - Glassdoor, updated 6/29/2021
+- Indeed's [guide to maintaining mental health during the job search](https://www.indeed.com/career-advice/finding-a-job/college-graduate-job-search-anxiety) - Jane Kellogg Murray, 5/13/2021
 
 _[Click here](#resources) to go back to the top._

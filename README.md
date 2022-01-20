@@ -2,7 +2,7 @@
 
 Things to study when prepping for tech interviews. Tailored for those looking for their first 1-2 SWE roles in the industry.
 
-[Click here](#https://github.com/florating/interview-prep/blob/main/resource-list.md) to look at the list of all resources!
+[Click here](https://github.com/florating/interview-prep/blob/main/resource-list.md) to look at the list of all resources!
 
 ### CONTENT:
 
