@@ -71,9 +71,23 @@ _[Click here](#resources) to go back to the top._
 - :sparkles: [System Design Primer](https://github.com/donnemartin/system-design-primer): learn how to design scalable systems
 - Entity Relationship Diagrams (ERD): [quick reference for relationship symbols](https://www.vivekmchawla.com/erd-crows-foot-relationship-symbols-cheat-sheet/)
 
-**Databases:**
+_[Click here](#resources) to go back to the top._
+
+## Databases
+
+**Topics:**
+
+- SQL vs NoSQL databases
+- ACID compliance (atomicity, consistency, isolation, and durability)
+- normalization
+- data warehousing
+- sanitizing user input (beware of SQL injection attacks!)
+
+**General:**
 
 - DB structure & design tutorial: https://www.lucidchart.com/pages/database-diagram/database-design
+- MySQL vs PostgreSQL: https://towardsdatascience.com/mysql-vs-postgresql-3d48891452a
+
 
 **Diagram Drawing Tools:**
 
@@ -90,6 +104,12 @@ _[Click here](#resources) to go back to the top._
 
 _[Click here](#resources) to go back to the top._
 
+## Data Engineering
+
+- [Extract Transform Load (ETL)](https://databricks.com/glossary/extract-transform-load)
+- :sparkles: [Designing an ETL pipeline (video)](http://www.acheronanalytics.com/acheron-blog/sql-best-practices-designing-an-etl-video)
+  - from an operational database to a data warehouse
+
 ## Data Science
 
 Quick reference: [How do you decide whether to use Python or R?](https://s3.amazonaws.com/assets.datacamp.com/email/other/Python+vs+R.pdf)
@@ -98,15 +118,26 @@ _Would data visualization also go here?_
 
 **Topics:**
 
-- SQL & data analysis
-- Data structures & algorithms
-- Machine learning theory
+- [SQL](#sql) & data analysis
+- [Data structures & algorithms](#cs-fundamentals)
+- [Machine learning theory](#machine-learning)
 - Modeling case studies
-- Database & system design
+- [Database](#databases) & [system design](#system-design)
 - Product & business intuition
 - Statistics & probability
-- Python scripting
+- [Python scripting](#python)
 - Experimentation & A/B testing
+
+**Optional Topics:**
+
+_These might fit better under [data engineering](#data-engineering)..._
+
+- data warehousing
+- data cleanup
+
+**Resources:**
+
+- https://www.theseattledataguy.com/4-skills-data-scientist-must-have/
 
 **Helpful Libraries:**
 
