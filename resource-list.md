@@ -1,6 +1,6 @@
 # Resources
 
-A collection of general interview prep guides, study materials, useful tools, and helpful advice for developers.
+A collection of general interview prep guides, study materials, useful tools, and helpful advice for developers. Check out the [main interview guide](./README.md).
 
 Click on the hamburger menu (icon with 3 horizontal stripes) at the top left corner of the README to jump to a topic.
 
@@ -61,6 +61,121 @@ _[Click here](#resources) to go back to the top._
 **Big O Notation:**
 
 - freeCodeCamp.org's free 2 hr lecture video: https://www.youtube.com/watch?v=Mo4vesaut8g
+
+## Object-Oriented Programming (OOP)
+
+**What is it?**
+
+- encapsulation
+
+- [design patterns](https://en.wikipedia.org/wiki/Object-oriented_programming#Design_patterns)
+
+More will be added soon.
+
+## Code Quality
+
+- [When to check your code quality](https://realpython.com/python-code-quality/#when-can-i-check-my-code-quality)
+    <details><summary>Characteristics of high-quality code</summary>
+
+  _Originally written for Python, but the general tips are true for most or all other languages._
+
+  - It does what it is supposed to do.
+  - It does not contain defects or problems.
+  - It is easy to read, maintain, and extend.
+
+  _Quoted from Real Python's [article about code quality](https://realpython.com/python-code-quality/#what-is-code-quality)._
+    </details>
+
+- keep your code [DRY (don't repeat yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+
+### Anti-Patterns
+
+**What is it?**
+"a common response to a recurring problem that is usually ineffective and risks being highly counterproductive" ([Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern))
+
+watch out for [antipatterns](https://sourcemaking.com/antipatterns) in [the code](https://sourcemaking.com/antipatterns/software-development-antipatterns)
+
+### Code Review
+
+<details><summary>What qualities do code reviewers look for?</summary>
+
+- **Design**: Is the code well-designed and appropriate for your system?
+
+- **Functionality**: Does the code behave as the author likely intended? Is the way the code behaves good for its users?
+- **Complexity**: Could the code be made simpler? Would another developer be able to easily understand and use this code when they come across it in the future?
+- **Tests**: Does the code have correct and well-designed automated tests?
+- **Naming**: Did the developer choose clear names for variables, classes, methods, etc.?
+- **Comments**: Are the comments clear and useful?
+- **Style**: Does the code follow our style guides?
+- **Documentation**: Did the developer also update relevant documentation?
+
+_Quoted from Google's [Code Review Developer Guide](https://google.github.io/eng-practices/review/)._
+
+</details>
+
+**Resources:**
+
+- :sparkles: Google's [Code Review Developer Guide](https://google.github.io/eng-practices/review/)
+  - [The Code Reviewer's Guide](https://google.github.io/eng-practices/review/reviewer/)
+  - [The Change Author's Guide](https://google.github.io/eng-practices/review/developer/)
+    - how to get your code through a code review
+    - CL = changelist (aka "change", "patch", "pull request")
+
+_[Click here](#resources) to go back to the top._
+## Design Patterns
+
+**What are they?**
+
+- **creational patterns** provide the capability to create objects based on a required criterion and in a controlled way
+
+<details><summary>Examples of creational design patterns</summary>
+
+<details><summary>from Wikipedia</summary>
+
+- Abstract Factory pattern: a class requests the objects it requires from a factory object instead of creating the objects directly
+
+- Factory method pattern: centralize creation of an object of a specific type choosing one of several implementations
+- Builder pattern: separate the construction of a complex object from its representation so that the same construction process can create different representations
+- Dependency Injection pattern: a class accepts the objects it requires from an injector - instead of creating the objects directly
+- Lazy initialization pattern: tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed
+- Object pool pattern: avoid expensive acquisition and release of resources by recycling objects that are no longer in use
+- Prototype pattern: used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects
+- Singleton pattern: restrict instantiation of a class to one object
+
+</details>
+
+<details><summary>from The Interview Study Guide for Software Engineers</summary>
+
+- Factory Design Pattern
+- Observer Design Pattern
+- Adapter Design Pattern
+- Facade Design Pattern
+- Chain of Responsibility Design Pattern
+- Interpreter Design Pattern
+- Singleton Design Pattern
+- Head First Design Patterns
+
+his recommended resources:
+
+- [video snippet from Dr. Timothy Lethbridge's SEG 2100 course](https://www.youtube.com/watch?v=LAP2A80Ajrg&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3350s) (20 min) - recorded in 2002
+- [video lectures for each (creational) design pattern](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764/#design-patterns)
+
+_Quoted from [The Interview Study Guide for Software Engineers](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764/#design-patterns)._
+
+</details>
+</details>
+
+- **structural patterns** are about organizing different classes and objects to form larger structures and provide new functionality
+
+- **behavioral patterns** are about identifying common communication patterns between objects and realizing these patterns
+
+- **concurrency patterns** deal with the multi-threaded programming paradigm
+
+**Resources:**
+
+- [list of creational/structural/behavioral/concurrency design patterns](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list) from Wikipedia
+- [examples of structural patterns](https://en.wikipedia.org/wiki/Structural_pattern) from Wikipedia
+- [video lectures for each (creational) design pattern](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764/#design-patterns)
 
 _[Click here](#resources) to go back to the top._
 
