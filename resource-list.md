@@ -39,11 +39,11 @@ _[Click here](#resources) to go back to the top._
 **Topics:**
 
 - data structures
-- algorithms
+- algorithms ([sorting](https://www.youtube.com/watch?v=kPRA0W1kECg), searching, etc)
 - big O notation
 - dynamic programming
 - string manipulation
-- object oriented programming (OOP)
+- [object oriented programming (OOP)](#object-oriented-programming-oop)
 - recursion
 - tree traversal
 - breadth-first search vs depth-first search
@@ -57,6 +57,7 @@ _[Click here](#resources) to go back to the top._
 **Algorithms:**
 
 - [The Tech Interview Handbook](https://techinterviewhandbook.org/algorithms/introduction/): [Algorithm tips](https://techinterviewhandbook.org/algorithms/introduction/#general-tips)
+- [15 Sorting Algorithms in 6 Minutes (Youtube)](https://www.youtube.com/watch?v=kPRA0W1kECg) - turn down volume!
 
 **Big O Notation:**
 
@@ -66,11 +67,50 @@ _[Click here](#resources) to go back to the top._
 
 **What is it?**
 
-- encapsulation
-
+- a programming paradigm that solves problems by using objects to model data and procedures
+- "typically use inheritance for code reuse and extensibility in the form of either classes or prototypes" (Wikipedia)
+- focus on encapsulation, modularity, inheritance, and heirarchy
 - [design patterns](https://en.wikipedia.org/wiki/Object-oriented_programming#Design_patterns)
 
-More will be added soon.
+<details><summary>Package principles</summary>
+
+- a way of organizing classes in larger systems to make them more organized and manageable
+- principles of package cohesion: REP, CRP, CCP
+- principles of package coupling: ADP, SDP, SAP
+
+Quote from the [Wikipedia article](https://en.wikipedia.org/wiki/Package_principles) on this topic.
+
+</details>
+
+<details><summary>SOLID design principles</summary>
+
+- **S**ingle-responsibility: every class should have only 1 responsibility
+
+- **O**pen-closed: open for extension, closed for modification
+- **L**iskov substitution: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."
+- **I**nterface segregation: "Many client-specific interfaces are better than one general-purpose interface."
+- **D**ependency inversion: depend on abstractions (see [diagram of the pattern](https://en.wikipedia.org/wiki/Dependency_inversion_principle#Dependency_inversion_pattern))
+  - high-level modules should not import anything from low-level modules
+  - abstractions should not depend on details (concrete implementations)
+
+Quoted from the [Wikipedia article](https://en.wikipedia.org/wiki/SOLID) on this topic.
+
+</details>
+
+<details><summary>GRASP design principles</summary>
+
+- "nine fundamental principles in object design and responsibility assignment"
+- patterns and principles used: controller, creator, indirection, information expert, low [coupling](<https://en.wikipedia.org/wiki/Coupling_(computer_programming)>), high [cohesion](<https://en.wikipedia.org/wiki/Cohesion_(computer_science)>), [polymorphism](<https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>), protected variations, and pure fabrication
+
+Quoted from the [Wikipedia article about GRASP](<https://en.wikipedia.org/wiki/GRASP_(object-oriented*design)>).
+
+</details>
+
+**Resources:**
+
+- a [list of OOP-related terms](https://en.wikipedia.org/wiki/Index_of_object-oriented_programming_articles) on Wikipedia
+
+_[Click here](#resources) to go back to the top._
 
 ## Code Quality
 
@@ -155,7 +195,7 @@ _[Click here](#resources) to go back to the top._
 - Singleton Design Pattern
 - Head First Design Patterns
 
-his recommended resources:
+  and some recommended resources:
 
 - [video snippet from Dr. Timothy Lethbridge's SEG 2100 course](https://www.youtube.com/watch?v=LAP2A80Ajrg&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3350s) (20 min) - recorded in 2002
 - [video lectures for each (creational) design pattern](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764/#design-patterns)
@@ -163,6 +203,7 @@ his recommended resources:
 _Quoted from [The Interview Study Guide for Software Engineers](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764/#design-patterns)._
 
 </details>
+
 </details>
 
 - **structural patterns** are about organizing different classes and objects to form larger structures and provide new functionality
@@ -170,6 +211,8 @@ _Quoted from [The Interview Study Guide for Software Engineers](https://dev.to/s
 - **behavioral patterns** are about identifying common communication patterns between objects and realizing these patterns
 
 - **concurrency patterns** deal with the multi-threaded programming paradigm
+
+**For OOP:** [click here](#object-oriented-programming-oop)
 
 **Resources:**
 
@@ -333,6 +376,38 @@ _Quoted from the link above._
 _[Click here](#resources) to go back to the top._
 
 # Language-Specific Resources
+
+Resources to learn and master Python, JavaScript, SQL, and PHP.
+
+<details><summary>
+
+:sparkles: 11 tips for learning a new CS language
+
+</summary>
+
+1. code everyday: try starting with 25 min each day
+2. write it out: take notes by hand for long-term retention
+3. use the interactive Python shell (aka a Python REPL)
+4. take breaks: try using the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) by working in 25-min blocks with short breaks
+5. become a bug bounty hunter: use a methodological approach
+   - start going through your code in the order it was executed
+   - _my tip: visualize code execution step-by-step using [Python Tutor](https://pythontutor.com)_
+6. surround yourself with others who are learning
+7. teach: or try [rubber ducking](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
+8. pair program
+9. ask "GOOD" questions when troubleshooting/asking for help:
+   - **G**ive context and describe the problem
+   - **O**utline things you've already tried to fix the problem
+   - **O**ffer your best guess about what the problem might be
+   - **D**emo what is happening
+10. build something: [what you build is not as important as how you build it](https://dbader.org/blog/python-projects-inspiration)
+11. contribute to open-source projects
+
+Get the most out of working with others with tips 6-11.
+
+Source: [Real Python's 11 beginner tips for learning Python](https://realpython.com/python-beginner-tips/), which are applicable when learning _any_ language.
+
+</details>
 
 ## Python
 
