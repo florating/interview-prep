@@ -39,12 +39,27 @@ _[Click here](#tech-interview-prep) to go back to the top._
 
 This study plan is my personal opinion. Please give me feedback! :)
 
+### Overview
+
+1. Determine how much time you can dedicate to prep and go through interviews.
+   - What are your other obligations?
+   - How flexible you can be with your schedule?
+2. Determine what skills you will need to review.
+   - Look up job postings for ideal roles. Which requirements often come up?
+   - Take stock of what you already know (and review this minimally).
+   - Focus on studying the skills that come up frequently in job postings.
+3. Set [SMART goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals).
+4. Track your progress.
+   - Take a self-assessment at the start to easily compare and track progress as you study.
+5. Review daily! Consider taking on the [#100DaysOfCode](https://www.100daysofcode.com) challenge.
+
 ### Self-Assessment
 
 How prepared do you feel?
 
 1. How prepared do you feel? Take stock of your current skills.
    - Review the list of skills per the [junior web developer checklist](https://different-marmoset-f7b.notion.site/Junior-Web-Developer-Checklist-1-0-13f79e255d75430e97e6e99617cddb74)
+   - Check out [these developer roadmaps](https://roadmap.sh) for various tech roles.
 2. Keep your goals in mind: what kind of tech role are you hoping for?
    - What kinds of skills do these job postings require?
    - Take a look at [some job postings](#job-applications) and write down key skills to learn.
@@ -54,7 +69,8 @@ How prepared do you feel?
    - Track your mistakes and why you made those mistakes.
    - It's also great to keep track of knowledge that you _do_ have, to maintain it and prevent it from fading away.
 5. Stay focused.
-   - Q: Are you hoping to be a full-stack developer? Or more front-end? Or back-end? Or something else?
+   - Are you hoping to be a full-stack developer? Or more front-end? Or back-end? Or something else?
+   - [Check out this review of various entry-level SWE roles](https://www.wayup.com/guide/entry-level-software-engineer-job-guide/), but ignore their information about salaries...
    - Pick a tech stack that will benefit you most when you interview (eg: Python) or something that is gaining popularity in the tech industry you are targeting.
 
 ### Create a Schedule
@@ -84,6 +100,49 @@ _[Click here](#tech-interview-prep) to go back to the top._
 ## Resources
 
 [Click here](#https://github.com/florating/interview-prep/blob/main/resource-list.md) to look at the list of resources!
+
+_[Click here](#tech-interview-prep) to go back to the top._
+
+## Building Your Portfolio
+
+### Projects
+
+A single solid project is more helpful than several simple ones. Add these to your resume and LinkedIn profile to showcase your skills! Be sure to make your GitHub repo public. Bonus points if you deploy your project!
+
+**Project Ideas:**
+
+- Prior projects created by Hackbright students: https://hackbrightacademy.com/student-projects/
+
+**Free APIs:**
+
+- https://github.com/public-apis/public-apis
+
+**Test APIs:** build APIs more easily and test your routes
+
+- Postman: https://www.postman.com/
+- Insomnia: https://insomnia.rest
+
+**System Design Tools:**
+
+- https://dbdiagram.io/home
+- https://draw.io: lots of symbols/shapes, and can draw ERDs as well
+
+**Front-end:**
+
+- HTML5 templates: https://html5up.net
+- Animate.css: https://animate.style
+  - "a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints."
+- [Font Awesome 5](https://github.com/FortAwesome/Font-Awesome): "the iconic SVG, font, and CSS framework" and most popular icon toolkit
+
+**Extra:**
+
+- Structuring your project: https://docs.python-guide.org/writing/structure/
+- How to write a good README for your GitHub repo: https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
+- Stylizing your README using Markdown: [official guide](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+- Corey Schafer's 12-part series to create a web app using Flask and SQLAlchemy: https://youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH
+
+_[Click here](#tech-interview-prep) to go back to the top._
 
 ## Preparing Resume and Cover Letter
 
