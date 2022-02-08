@@ -128,41 +128,7 @@ _[Click here](#resources) to go back to the top._
 
 - keep your code [DRY (don't repeat yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-### Anti-Patterns
-
-**What is it?**
-"a common response to a recurring problem that is usually ineffective and risks being highly counterproductive" ([Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern))
-
-watch out for [antipatterns](https://sourcemaking.com/antipatterns) in [the code](https://sourcemaking.com/antipatterns/software-development-antipatterns)
-
-### Code Review
-
-<details><summary>What qualities do code reviewers look for?</summary>
-
-- **Design**: Is the code well-designed and appropriate for your system?
-
-- **Functionality**: Does the code behave as the author likely intended? Is the way the code behaves good for its users?
-- **Complexity**: Could the code be made simpler? Would another developer be able to easily understand and use this code when they come across it in the future?
-- **Tests**: Does the code have correct and well-designed automated tests?
-- **Naming**: Did the developer choose clear names for variables, classes, methods, etc.?
-- **Comments**: Are the comments clear and useful?
-- **Style**: Does the code follow our style guides?
-- **Documentation**: Did the developer also update relevant documentation?
-
-_Quoted from Google's [Code Review Developer Guide](https://google.github.io/eng-practices/review/)._
-
-</details>
-
-**Resources:**
-
-- :sparkles: Google's [Code Review Developer Guide](https://google.github.io/eng-practices/review/)
-  - [The Code Reviewer's Guide](https://google.github.io/eng-practices/review/reviewer/)
-  - [The Change Author's Guide](https://google.github.io/eng-practices/review/developer/)
-    - how to get your code through a code review
-    - CL = changelist (aka "change", "patch", "pull request")
-
-_[Click here](#resources) to go back to the top._
-## Design Patterns
+### Design Patterns
 
 **What are they?**
 
@@ -509,34 +475,78 @@ Source: [Real Python's 11 beginner tips for learning Python](https://realpython.
 
 ## Python
 
-**Official Documentation:**
+_Note: Real Python is my personal favorite for learning basic topics and to dive deeper into the language._
 
+**Getting Started:**
+
+- :sparkles: quick overview of [the basics](https://realpython.com/python-first-steps/#the-basic-python-syntax) from Real Python
+- the [most popular entry-level Python articles](https://realpython.com/python-basics/) on Real Python
+- diving a bit deeper into [basic data types](https://realpython.com/python-data-types/) and [data structures](https://realpython.com/python-data-structures/) from Real Python
+- :sparkles: [Python cheatsheet](https://www.pythoncheatsheet.org): basics to more fancy stuff
+- :sparkles: Jupyter notebooks to learn Python 3.5+ at [beginner](https://jerry-git.github.io/learn-python3/#beginner) and [intermediate](https://jerry-git.github.io/learn-python3/#intermediate) levels
+- [object-oriented programming](https://realpython.com/python3-object-oriented-programming/), classes, and inheritance from Real Python
+- :sparkles: [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html) - a free textbook
+
+<details><summary>Other helpful resources for beginners</summary>
+
+- about using Python as a calculator, strings, and lists
+- [control flow](https://docs.python.org/3/tutorial/controlflow.html) (official docs)
+- :sparkles: [Formatting strings](https://pyformat.info): comparing new vs old styles
+
+</details>
+
+<details><summary>Official documentation
+
+</summary>
+
+- [an informal introduction to Python](https://docs.python.org/3/tutorial/introduction.html)
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html#tutorial-index)
 - [Glossary](https://docs.python.org/3/glossary.html#glossary)
 - [The Python Standard Library](https://docs.python.org/3/library/index.html)
 - [The Python Language Reference](https://docs.python.org/3/reference/index.html#reference-index)
-- [PEP 8](https://www.python.org/dev/peps/pep-0008/): style guide
+
+</details>
+
+**Best Practices:**
+
+- [Articles and tutorials about best practices for more Pythonic code](https://realpython.com/tutorials/best-practices/) according to Real Python
+- [Code quality and best practices](https://realpython.com/python-code-quality/) from Real Python - very generalizable to other languages
+- :sparkles: [Best practices](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/best_practices.html), including why + how
+- [PEP 8](https://www.python.org/dev/peps/pep-0008/): the official style guide for Python
+- :sparkles: [project structure](https://jerry-git.github.io/learn-python3/notebooks/beginner/html/project_structure.html) for scripts and packages in Python
 
 **General:**
 
-- :sparkles:[Jupyter notebooks to learn Python 3.5+](https://jerry-git.github.io/learn-python3/), including the following topics:
+- :sparkles::sparkles: [Interview tips](https://realpython.com/python-coding-interview-tips/) from Real Python - how to stand out in a Python coding interview
   - [Idiomatic Python](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/idiomatic_misc2.html#Properties-instead-of-getter/setter-methods): some do's and don'ts at an intermediate level
-  - :sparkles: [Best practices](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/best_practices.html): includes why + how
   - [goodies of the standard Python libarary](https://jerry-git.github.io/learn-python3/notebooks/intermediate/html/std_lib2.html): encoding/decoding JSON, mock tests, etc.
-- :sparkles: Python cheatsheet (basics to more fancy stuff): https://www.pythoncheatsheet.org
-  - Python comprehensions: [a step-by-step guide](https://www.pythoncheatsheet.org/blog/python-comprehensions-step-by-step/)
+- [Various comprehensions](https://www.pythoncheatsheet.org/blog/python-comprehensions-step-by-step/): a step-by-step guide
 - :sparkles: [Big O notation](https://wiki.python.org/moin/TimeComplexity): more about time complexity
-- Algorithm implementations: https://www.algorist.com/languages/Python.html
+- [Algorithm implementations](https://www.algorist.com/languages/Python.html)
+- [How to get started with contributing to open source projects](https://dbader.org/blog/python-open-source-contributing)
+
+**Testing:**
+
+- Testing with pytest: [part 1](https://jerry-git.github.io/learn-python3/notebooks/beginner/html/testing1.html) and [part 2](https://jerry-git.github.io/learn-python3/notebooks/beginner/html/testing2.html)
+
+**Quizzes and Problem Sets:**
+
+- https://realpython.com/quizzes/
 
 **Tools:**
 
+- :sparkles: visualize code execution step-by-step using [Python Tutor](https://pythontutor.com)
+- [pytest](https://docs.pytest.org/en/latest/): a framework to write tests
 - Python Package Index (PyPI): https://pypi.org
 - [Jupyter notebooks](https://jupyter.org)
-- :sparkles:[Formatting strings](https://pyformat.info): comparing new vs old styles
 
-<details><summary>Extra resources</summary>
+<details><summary>Extra resources (optional)</summary>
 
-- [Dive Into Python 3](https://diveintopython3.net): differences between Python 2 and 3 in textbook form, for free
+- [Inheritance vs composition](https://realpython.com/inheritance-composition-python/) from Real Python
+- [Dive Into Python 3](https://diveintopython3.net): differences between Python 2 and 3 in textbook form
+- [Finding Python Projects to Grow Your Programming Skills](https://dbader.org/blog/python-projects-inspiration)
+- [Class methods vs static methods](https://www.geeksforgeeks.org/class-method-vs-static-method-python/): using the `@classmethod` decorator
+- Decorators: quick intros from [RealPython](https://realpython.com/primer-on-python-decorators/) and [GeeksforGeeks](https://www.geeksforgeeks.org/decorators-in-python/)
 
 </details>
 
