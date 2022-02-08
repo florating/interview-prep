@@ -222,7 +222,105 @@ _Quoted from [The Interview Study Guide for Software Engineers](https://dev.to/s
 
 _[Click here](#resources) to go back to the top._
 
+### Anti-Patterns
+
+**What are they?**
+
+"a common response to a recurring problem that is usually ineffective and risks being highly counterproductive" ([Wikipedia](https://en.wikipedia.org/wiki/Anti-pattern))
+
+Watch out for [antipatterns](https://sourcemaking.com/antipatterns) in [the code](https://sourcemaking.com/antipatterns/software-development-antipatterns)
+
+### Code Review
+
+<details><summary>What qualities do code reviewers look for?</summary>
+
+- **Design**: Is the code well-designed and appropriate for your system?
+
+- **Functionality**: Does the code behave as the author likely intended? Is the way the code behaves good for its users?
+- **Complexity**: Could the code be made simpler? Would another developer be able to easily understand and use this code when they come across it in the future?
+- **Tests**: Does the code have correct and well-designed automated tests?
+- **Naming**: Did the developer choose clear names for variables, classes, methods, etc.?
+- **Comments**: Are the comments clear and useful?
+- **Style**: Does the code follow our style guides?
+- **Documentation**: Did the developer also update relevant documentation?
+
+_Quoted from Google's [Code Review Developer Guide](https://google.github.io/eng-practices/review/)._
+
+</details>
+
+**Resources:**
+
+- :sparkles: Google's [Code Review Developer Guide](https://google.github.io/eng-practices/review/)
+  - [The Code Reviewer's Guide](https://google.github.io/eng-practices/review/reviewer/)
+  - [The Change Author's Guide](https://google.github.io/eng-practices/review/developer/)
+    - how to get your code through a code review
+    - CL = changelist (aka "change", "patch", "pull request")
+
+_[Click here](#resources) to go back to the top._
+
+## Web Dev Fundamentals
+
+Take a look at the sections for [front-end](#front-end) and [JavaScript](#javascript) as well.
+
+**Topics:**
+
+- JSON
+- AJAX: [MDN's guide](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+- DOM manipulation
+- REST APIs
+- UX/UI design
+- search engine optimization (SEO)
+- accessibility: [MDN's guide](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+
+**Resources:**
+
+- :sparkles: Google's [opinionated reference for web fundamentals](https://developers.google.com/web/fundamentals)
+- [free courses from web.dev](https://web.dev/learn/) (Google) - on fundamentals, performance, frameworks, etc.
+- [AWS API Gateway Tutorial | How to Create REST API With API Gateway](https://www.youtube.com/watch?v=qnVfWG8N7Fw) by Edureka on Youtube
+- [AWS API Gateway to Lambda Tutorial in Python | Build a HTTP API (2/2)](https://www.youtube.com/watch?v=M91vXdjve7A&list=PL9nWRykSBSFivg7AyK8XjGa6I7wGEibqG&index=4) by Be A Better Dev on Youtube
+- :sparkles: [Fundamentals of REST API](https://dev.to/cassiocappellari/fundamentals-of-rest-api-2nag) - August 2021
+- :sparkles: [helpful slides about JSON/REST APIs/etc.](https://web.stanford.edu/class/archive/cs/cs193x/cs193x.1176/lectures/18/lecture18.pdf) from Stanford's CS193X course on web development
+- [HTML Tutorials](https://htmldog.com/guides/html/) from HTML Dog (all levels):
+  - check out the [beginner tutorial for forms](https://htmldog.com/guides/html/beginner/forms/) or [advanced topics](https://htmldog.com/guides/html/advanced/)
+- [CSS Tutorials](https://htmldog.com/guides/css/) from HTML Dog (all levels)
+
+**Exercises:**
+
+- [HTML challenges](https://wikiversity.org/wiki/Web_Design/HTML_Challenges)
+
+_[Click here](#resources) to go back to the top._
+
+### Security
+
+These are nice to know in a general sense, but no need to memorize them unless you want to get deep into cybersecurity.
+
+**Resources:**
+
+- :sparkles: [Web Security](https://developer.mozilla.org/en-US/docs/Web/Security) by MDN
+- :sparkles: [Top 10 web application security risks in 2021](https://owasp.org/www-project-top-ten/) from OWASP
+  - :sparkles: [related security cheatsheets](https://cheatsheetseries.owasp.org/IndexTopTen.html)
+- :sparkles: [OWASP Code Review Project](https://wiki.owasp.org/index.php/Category:OWASP_Code_Review_Project): list of topics within the wiki
+  - [common types of application security attacks](https://wiki.owasp.org/index.php/Category:Attack)
+  - [application security principles](https://wiki.owasp.org/index.php/Category:Principle)
+- [AJAX security cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html) from OWASP
+
+<details><summary>Extra resources (optional)</summary>
+
+- [OWASP Code Review Guide](https://owasp.org/www-pdf-archive/OWASP_Code_Review_Guide_v2.pdf)
+- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+
+</details>
+
+_[Click here](#resources) to go back to the top._
+
 ## System Design
+
+**Topics:**
+
+- scalability
+- [databases](#databases)
+- normalization
+- tradeoffs and why each decision was made
 
 **General:**
 
