@@ -8,16 +8,27 @@ Click on the hamburger menu (icon with 3 horizontal stripes) at the top left cor
 
 ## General Guides (Overview)
 
-- :sparkles: [How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/)
+**Other Guides:**
 
-  - written in May 2016 by Haseeb Qureshi
+<details><summary>Setting up your laptop with developer tools</summary>
 
-  <details><summary>More about Haseeb Qureshi</summary>
+✨ [Step-by-step guide to setup M1 Mac with developer tools](https://codeburst.io/my-ultimate-m1-mac-developer-setup-cfdb2daeed2d):
 
-  - at the time of writing: former pro poker player, Director of Product at App Academy
-  - currently: "Managing Partner at Dragonfly Capital. Effective Altruist. Airbnb, Earn.com (acquired by Coinbase) alum. Instructor @ Bradfield. Writer. Former poker pro. Donate 33% of my income to charity."
+- Homebrew, Node.js, and more!
+
+👍 [General tips for convenience and efficiency](https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-2021-a7a1f53f6462):
+
+- includes setting up aliases for common git commands
 
   </details>
+
+**Interview Prep (General):**
+
+- :sparkles: [How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/)
+
+  - written in May 2016 by Haseeb Qureshi[^1]
+
+[^1]: At the time of writing, Haseeb Qureshi was a former professional poker player and Director of Product at App Academy. Currently, he describes himself as "Managing Partner at Dragonfly Capital. Effective Altruist. Airbnb, Earn.com (acquired by Coinbase) alum. Instructor @ Bradfield. Writer. Former poker pro. Donate 33% of my income to charity."
 
 - :sparkles: [The Interview Study Guide for Software Engineers](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764)
 
@@ -309,7 +320,12 @@ _[Click here](#resources) to go back to the top._
 
 - DB structure & design tutorial: https://www.lucidchart.com/pages/database-diagram/database-design
 - MySQL vs PostgreSQL: https://towardsdatascience.com/mysql-vs-postgresql-3d48891452a
+- SQL injection attacks: what happens and how to prevent it
 
+  - description from [MDN](https://developer.mozilla.org/en-US/docs/Glossary/SQL_Injection) and from [OWASP](https://owasp.org/www-community/attacks/SQL_Injection)
+  - [prevention cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) from OWASP
+
+- [Database security](https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html) from OWASP
 
 **Diagram Drawing Tools:**
 
@@ -571,10 +587,15 @@ _[Click here](#resources) to go back to the top._
 
 ## SQL
 
+- [Info about NoSQL databases](https://www.mongodb.com/nosql-explained) from MongoDB
 - [Writing more legible SQL](https://www.craigkerstiens.com/2016/01/08/writing-more-legible-sql/): tips written in 2016
-- Hackbright Lecture on SQLAlchemy (day 1): https://fellowship.hackbrightacademy.com/materials/serft8/lectures/sql-alchemy-1/
+- [Hackbright Lecture on SQLAlchemy](https://fellowship.hackbrightacademy.com/materials/serft8/lectures/sql-alchemy-1/) (day 1):
+
+**Questions:**
+
 - [60+ SQL questions to prepare for interviews](https://www.interviewbit.com/sql-interview-questions/) from InterviewBit
 - [Interview questions](https://www.geeksforgeeks.org/sql-interview-questions/) from GeeksforGeeks
+- Recommendations from [The Interview Study Guide for Software Engineers](https://dev.to/seattledataguy/the-interview-study-guide-for-software-engineers-764/#sql)
 
 <details><summary>Extra resources</summary>
 
