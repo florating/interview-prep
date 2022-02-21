@@ -1,14 +1,23 @@
 # Resources
 
-A collection of general interview prep guides, study materials, useful tools, and helpful advice for developers. Check out the [main interview guide](./README.md).
-
-Click on the hamburger menu (icon with 3 horizontal stripes) at the top left corner of the README to jump to a topic.
+A collection of general interview prep guides, study materials, useful tools, and helpful advice for developers.
 
 :sparkles: = great content to review!
+
+**Navigation:**
+Click on the hamburger menu (icon with 3 horizontal stripes) at the top left corner of this text block to jump to a topic.
+
+Check out the [main interview guide](./README.md).
 
 ## General Guides (Overview)
 
 **Other Guides:**
+
+Just getting started? Check out these specific resources:
+
+- [/getting-started](/getting-started.md): to help you set up your new computer, download recommended software, learn useful keyboard shortcuts, and more!
+
+- [/news](/news.md): to stay on top of the latest news in tech
 
 <details><summary>Setting up your laptop with developer tools</summary>
 
